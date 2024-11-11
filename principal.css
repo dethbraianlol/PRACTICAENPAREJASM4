@@ -1,0 +1,41 @@
+.imagenprincipal {
+    max-width: 100%;    
+    max-height: 100%;   
+    object-fit: contain;
+}
+.primertexto-principal h2{
+    font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+.primertexto-principal {
+    margin: 20%;
+    flex: 70%;
+}
+.contenido-principal {
+    width: 80%;
+    height: 80%;
+}
+.contenido-principal img{
+    width: 40%;
+    height: 40%;    
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.comparacion-pantallas img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 7px;
+}
+
+
+
