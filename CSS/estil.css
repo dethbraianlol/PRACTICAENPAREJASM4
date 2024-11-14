@@ -10,7 +10,7 @@ body {
     font-family: 'Lilita One', cursive;
 	padding:0;
 	box-sizing:border-box;
-    background-image: url(imatges/fondo-claro.png);
+    background-image: url(../imatges/fondo-claro.png);
 }
 .main {
     width: 100%; 
