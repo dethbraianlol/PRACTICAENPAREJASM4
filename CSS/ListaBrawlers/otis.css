@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/******************/
+/* BANNER */
+/******************/
+.imagen-principal {
+    width:100%;
+    height: 20%; 
+    object-fit: cover; /* Usa cover para llenar el contenedor */
+    padding-bottom: 550px;
+    border: 6px black;
+}
+
+/* CAPA OSCURA */
+.overlay {
+    z-index: -99999; /*Esto evitara que el overlay tape el menú, estara una capa por debajo*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 77%; /* Ajustar la altura para que coincida con el banner */
+    background-color: rgba(0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que el texto se apile verticalmente */
+    background-image: url(../../imatges/brawlers/bannersBrawlers/otisBanner.webp);
+    background-repeat: no-repeat; /*no se repetiran la imagen*/
+    background-size: contain; /*la imagen se ajustara al overlay*/
+    background-position-x: center; /*centrara la imagen*/
+}
+/******************/
+/* TITULO PARA BANNER */
+/******************/
+.banner-text {
+    color: rgb(246, 246, 246);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-bottom: 0px; /* Ajustar este valor para acercar el texto */
+}
+
+/******************/
+/* TEXTO PARA BANNER */
+/******************/
+.banner-text1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0px; /* Ajustar este valor para acercar el texto */
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+.primertexto-principal {
+    flex: 70%;
+}
+
+.contenido-principal {
+    width: 80%;
+    height: 80%;
+}
+
+.contenido-principal img {
+    width: 40%;
+    height: 40%;
+    border-radius: 7px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.comparacion-pantallas img {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 7px;
+}
+/******************/
+/* ICONOS - TABLA */
+/******************/
+section#seccion {
+    padding: 20px;
+    background-color: #ffffff00;
+    text-align: center;
+}
+
+.tabla-gadgets p {
+    max-width: 500px;
+}
+
+.tabla-gadgets {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre celdas */
+}
+
+.tabla-gadgets td {
+    padding: 10px; /* Espacio entre los iconos */
+    text-align: center;
+}
+
+.tabla-gadgets img {
+    width: 75px; /* Ajusta el tamaño de los iconos */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.tabla-gadgets img:hover {
+    transform: scale(1.1); /* Efecto de aumento en el hover */
+}
+table .brockSkin td {
+    text-align: center;
+    padding: 10px;   /* Espaciado entre las celdas */
+    width: auto;     /* Asegura que el td no limite el tamaño de la imagen */
+}
+
+.brawl-img {
+    max-width: 450px;  /* tamaño de la imagen */
+    width: 100%;       /* Hace que la imagen ocupe el 100% del contenedor hasta el tamaño máximo */
+    height: auto;      /* Mantiene la proporción de la imagen */
+}
+
+.grafica { 
+    width: 800px;
+    height: 300px; 
+    padding: 10px; 
+    border-radius: 30px;
+    border: 3px solid #000; 
+} 
+.barra { 
+    height: 40px; 
+    margin: 5px 5px; 
+    background-color: black;
+    text-align: left; 
+    line-height: 30px; 
+    color: white; 
+    padding-right: 10px; 
+    border-radius: 5px;
+    align-content: center;
+    padding: 10px;
+    transition: transform 0.3s;
+
+}
+.barra:hover{
+    transform: scale(1.1); /* Efecto de aumento en el hover */
+}
