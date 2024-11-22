@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Asegura que el texto se apile verticalmente */
-    background-image: url(../../imatges/brawlers/bannersBrawlers/fangBanner.webp);
+    background-image: url(../../imatges/brawlers/bannersBrawlers/fangBanner.jpg);
     background-repeat: no-repeat; /*no se repetiran la imagen*/
     background-size: contain; /*la imagen se ajustara al overlay*/
     background-position-x: center; /*centrara la imagen*/
