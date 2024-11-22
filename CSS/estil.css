@@ -47,6 +47,8 @@ body {
 	max-width:100%;
 	height:auto;
 }
+
+/*etiquetas @media screen para ponner el menu en vertical una vertical*/
 @media screen and (max-width: 700px) {
     .lista-navegacion {   
       flex-direction: column;
