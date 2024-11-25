@@ -1,44 +1,47 @@
 *{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+	margin:0; /*AFECTA EN EL FOOTER*/
+	box-sizing: border-box; /*AFECTA AL HEADER*/
 }
 
+/*****************************************
+ETIQUETAS PARA EL BODY
+*****************************************/
 body {
     width:100%;
     height:100%;
-    font-family: 'Lilita One', cursive;
-	padding:0;
-	box-sizing:border-box;
-    background-image: url(../imatges/fondo-claro.png);
+    font-family: 'Lilita One', cursive; /*FUENTE DEL TEXTO*/
+    background-image: url(../imatges/fondo-claro.png); /*COLOCA EL FONDO DE PANTALLA*/
 }
 .main {
     width: 100%; 
     height: 100%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; 
-    padding: 20px;
+    display: flex; /*NECESARIO PARA PODER CENTRAR EL CONTENIDO*/
+    justify-content: center; /*NECESARIO PARA PODER CENTRAR EL CONTENIDO*/
+    padding: 20px; /*PADDING PARA SEPARAR MÁS EL TITULO DEL BANNER*/
 }   
 
+/**********************************************
+LISTA DE NAVEGACIÓN
+**********************************************/
+
 .lista-navegacion{
-	width: 100%;
-    position: fixed;
-    top: 0;
-    display: flex;
-    align-items: center;
-    background-color: #000;
+	width: 100%; /*ANCHO DEL DIV DE NAV*/
+    position: fixed; /*EL NAVBAR SE QUEDARÁ ANCLADO*/
+    display: flex; 
+    align-items: center; /*CENTRA LOS CONTENDIDOS SINO SE QUEDAN PEGADOS ARRIBA*/
+    background-color: #000; /*FONDO COLOR NEGRO*/
     font-size: 17px;
 }
 
+
 .lista-navegacion li{
-	font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif;
-    display: block;
+	font-family: 'SupercellText-Medium',Helvetica,Arial,sans-serif; /*FUENTE*/
+    display: block; /**/
     color: white;
     padding: 15px 35px;
 }
 
+/*MODIFICA LA IMAGEN DEL NAVBAR */
 .lista-navegacion li.logonav{
 	width:120px;
 }
@@ -53,12 +56,6 @@ body {
     .lista-navegacion {   
       flex-direction: column;
       
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .imagenprincipal {   
-      padding-top: 75%;
     }
 }
 
@@ -109,6 +106,9 @@ body {
     display: flex;
 }
 
+/*
+SELECTOR  PARA LA SEGUNDA COLUMNA, AJUSTA LAS IMAGENES DEL FOOTER
+*/
 .column-footer:nth-of-type(2) {
     margin-left: auto;
     margin-top: -10%;
