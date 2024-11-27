@@ -3,6 +3,7 @@
 /******************/
 /* BANNER */
 /******************/
+
 .imagen-principal {
     width:100%;
     height: 20%; 
@@ -51,20 +52,47 @@
     font-size: 25px;
     margin-top: 0px; /* Ajustar este valor para acercar el texto */
 }
+
+/***************
+CAMBIA EL ESTILO DE LA FUENTE DE LA ETIQUETA P
+***************/
 p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 150%;
 }
-.primertexto-principal {
-    flex: 70%;
-}
+
+/********************************************
+AJUSTA EL TAMAÑO DE DEL DIV DONDE IRA EL CONTENIDO, REGULANDOLO A UN 80%
+********************************************/
 .contenido-principal {
     width: 80%;
     height: 80%;
 }
+/*****************************
+AJUSTA EL TAMAÑO DE LAS IMAGENES DENTRO DEL DIV
+*****************************/
+
 .contenido-principal img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/*********************************
+TABLA APARTADO DEL GAMEPLAY, IMAGENES DE GADGETS, ESTELARES, HIPER ETC
+*********************************/
+.tabla-gameplay img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/*********************************
+IMAGEN CENTRAL MOVIL CON GAMEPLAY
+*********************************/
+#imatgemovil {
     width: 40%;
     height: 40%;    
     border-radius: 7px;
@@ -72,9 +100,53 @@ p {
     margin: auto;
     margin-bottom: 10px;
 }
-.tabla-gameplay img{
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
+
+/********************************
+ETIQUETAS CORRESPONDIENTES A LA TABLA DEL CAMINO STARR
+********************************/
+.caminoStarr {
+    display: flex; /*le daremos una propiedad display */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
+#starr {
+    flex: 1;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#starr img{
+    max-width: 10px;
+    max-height: 10px;
+}
+
+#starr tr td{
+    padding-left: 20px;
+}
+#starr tr th{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+#starr table{
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+/********************************
+IMGAGENES PEQUEÑAS PARA H3 CONSUMIBLES
+********************************/
+.consumibles img{
+    top: 20px; /* Mueve la imagen 10px hacia abajo */
+    height: 20px;
+    margin-left: -30px;
+    margin-right: -35px;
+}
+
+
+
 
