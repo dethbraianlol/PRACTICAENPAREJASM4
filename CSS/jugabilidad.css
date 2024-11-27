@@ -3,6 +3,7 @@
 /******************/
 /* BANNER */
 /******************/
+
 .imagen-principal {
     width:100%;
     height: 20%; 
@@ -103,6 +104,19 @@ IMAGEN CENTRAL MOVIL CON GAMEPLAY
 /********************************
 ETIQUETAS CORRESPONDIENTES A LA TABLA DEL CAMINO STARR
 ********************************/
+.caminoStarr {
+    display: flex; /*le daremos una propiedad display */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#starr {
+    flex: 1;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
 #starr img{
     max-width: 10px;
     max-height: 10px;
@@ -121,7 +135,16 @@ ETIQUETAS CORRESPONDIENTES A LA TABLA DEL CAMINO STARR
 #starr table{
     border: 3px solid black;
     border-radius: 8px;
-    margin-bottom: 20px;
+}
+
+/********************************
+IMGAGENES PEQUEÑAS PARA H3 CONSUMIBLES
+********************************/
+.consumibles img{
+    top: 20px; /* Mueve la imagen 10px hacia abajo */
+    height: 20px;
+    margin-left: -30px;
+    margin-right: -35px;
 }
 
 
