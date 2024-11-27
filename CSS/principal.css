@@ -9,7 +9,6 @@
 }
 
 /* CAPA OSCURA */
-/* CAPA OSCURA */
 .overlay {
     z-index: -99999; /*Esto evitara que el overlay tape el menú, estara una capa por debajo*/
     position: absolute;
