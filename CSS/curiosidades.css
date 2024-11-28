@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /******************/
@@ -62,7 +63,35 @@ p {
     margin-bottom: 20px;
     line-height: 150%;
 }
-.contenido-principal {
-    width: 80%;
-    height: 80%;
+.contenedor-imagenes {
+    display: flex; /* Alinea las imágenes en fila */
+    justify-content: center; /* Centra las imágenes */
+    gap: 60px; /* Aumenta la separación a 20px entre imágenes */
 }
+
+.contenedor-imagenes img {
+    width: 200px; /* Tamaño pequeño para las imágenes */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.contenedor-img {
+    display: flex; /* Alinea las imágenes en fila */
+    justify-content: center; /* Centra las imágenes */
+    gap: 60px; /* Aumenta la separación a 20px entre imágenes */
+}
+
+.contenedor-img img {
+    width: 150px; /* Tamaño pequeño para las imágenes */
+    height: 180px; /* Mantiene la relación de aspecto */
+}
+.contenedor-iconos {
+    display: flex; /* Alinea las imágenes en fila */
+    justify-content: center; /* Centra las imágenes */
+    gap: 60px; /* Aumenta la separación a 20px entre imágenes */
+}
+
+.contenedor-iconos img {
+    width: 100px; /* Tamaño pequeño para las imágenes */
+    height: 100px; /* Mantiene la relación de aspecto */
+}
+
