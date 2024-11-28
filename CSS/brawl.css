@@ -9,6 +9,7 @@
     object-fit: cover; /* Usa cover para llenar el contenedor */
     padding-bottom: 550px;
     border: 6px black;
+    margin-bottom: 20px;
 }
 
 /* CAPA OSCURA */
