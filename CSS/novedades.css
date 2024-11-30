@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/******************/
+/* BANNER */
+/******************/
+
+.imagen-principal {
+    width:100%;
+    height: 20%; 
+    object-fit: cover; /* Usa cover para llenar el contenedor */
+    padding-bottom: 570px;
+    border: 6px black;
+}
+
+/* CAPA OSCURA */
+/* CAPA OSCURA */
+.overlay {
+    z-index: -99999; /*Esto evitara que el overlay tape el menú, estara una capa por debajo*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 77%; /* Ajustar la altura para que coincida con el banner */
+    background-color: rgba(0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que el texto se apile verticalmente */
+    background-image: url(../imatges/novedades/novedadesBanner.webp);
+    background-repeat: no-repeat; /*no se repetiran la imagen*/
+    background-size: contain; /*la imagen se ajustara al overlay*/
+    background-position-x: center; /*centrara la imagen*/
+}
+/******************/
+/* TITULO PARA BANNER */
+/******************/
+.banner-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-bottom: 0px; /* Ajustar este valor para acercar el texto */
+}
+
+/******************/
+/* TEXTO PARA BANNER */
+/******************/
+.banner-text1 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 0px; /* Ajustar este valor para acercar el texto */
+}
+
+/***************
+CAMBIA EL ESTILO DE LA FUENTE DE LA ETIQUETA P
+***************/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+/********************************************
+AJUSTA EL TAMAÑO DE DEL DIV DONDE IRA EL CONTENIDO, REGULANDOLO A UN 80%
+********************************************/
+.contenido-principal {
+    width: 80%;
+    height: 80%;
+}
+/*****************************
+AJUSTA EL TAMAÑO DE LAS IMAGENES DENTRO DEL DIV
+*****************************/
+
+.contenido-principal img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/*********************************
+TABLA APARTADO DEL GAMEPLAY, IMAGENES DE GADGETS, ESTELARES, HIPER ETC
+*********************************/
+.tabla-gameplay img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.contenido1 {
+    display: grid;
+    gap: 1rem;
+    border: 5px solid #000000;
+    border-radius: 1rem;
+    width: 60em;
+    align-items: center;
+    padding: 1.5rem;
+    background: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.habilidad {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.imagen {
+    border: 0px solid #000000;
+    overflow: hidden;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.imagen img {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.descripcion {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.descripcion h3 {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.descripcion p {
+    color: #000000;
+    font-size: 1rem;
+}
+ 
+
+/**********************
+    FORMULARIOO
+***********************/
+.formulario {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /*editar para el espacio entre contenidos*/
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /*Cambia el cursor del raton*/
+}
+
+button:hover {
+    background-color: #45a049;
+}
