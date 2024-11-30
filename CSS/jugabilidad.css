@@ -115,6 +115,7 @@ ETIQUETAS CORRESPONDIENTES A LA TABLA DEL CAMINO STARR
     text-align: right;
     margin-top: 20px;
     margin-left: 80px;
+    background-color: rgb(255, 255, 255);
 }
 
 #starr img{
@@ -166,6 +167,7 @@ IMGAGENES PEQUEÑAS PARA H3 CONSUMIBLES
 
 #skinsTabla {
     margin-top: 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 

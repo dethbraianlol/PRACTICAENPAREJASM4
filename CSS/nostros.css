@@ -26,7 +26,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Asegura que el texto se apile verticalmente */
-    background-image: url(../imatges/jugabilidad/imagenprincipal.webp);
+    background-image: url(../imatges/nostros/banner.webp);
     background-repeat: no-repeat; /*no se repetiran la imagen*/
     background-size: contain; /*la imagen se ajustara al overlay*/
     background-position-x: center; /*centrara la imagen*/
@@ -35,7 +35,7 @@
 /* TITULO PARA BANNER */
 /******************/
 .banner-text {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
     font-size: 50px;
@@ -61,4 +61,23 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 150%;
+}
+
+.contenido-principal {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    align-items: center;
+}
+.alumnosDaw img{
+    width: 150px;
+}
+.alumnosDaw {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.alumnosDaw a{
+    display: block;
+    color: rgb(0, 0, 0);
 }

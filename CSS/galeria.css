@@ -69,50 +69,33 @@ p {
     line-height: 150%;
 }
 
+
 .galeria {
-    margin: 5px; /* Agrega un espacio de 5px alrededor del contenedor de cada galería. */
-    border: 1px solid #ccc; /* Define un borde gris claro alrededor del contenedor. */
-    float: left; /* Hace que las galerías se alineen horizontalmente*/
-    width: 180px; /* Establece un ancho fijo para el contenedor de la galería. */
-    border-radius: 4px; /* Redondea ligeramente las esquinas del contenedor. */
-    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    width: 200px; /* Tamaño consistente para cada imagen */
+    height: 250px; /* Ajusta según prefieras */
 }
 
-div.galeria:hover {
-    border: 1px solid #777; /* Cambia el color del borde*/
-}
-
-  
 .galeria img {
-    width: 100%; /* Asegura que la imagen se ajuste al ancho del contenedor. Previene que se "descoloquen". */
-    max-width: fit-content; /* Limita el ancho máximo según el contenido, aunque no es crucial aquí dado el `width: 100%`. */
-    max-height: fit-content; /* Asegura que la imagen no exceda su tamaño natural. */
+    width: 100%; /* Imagen se adapta al contenedor */
+    height: 100%; /* Imagen se adapta al contenedor */
+    object-fit: cover; /* Recorta sin distorsionar */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    border: 2px solid #6b6b6b; /* Opcional: borde */
 }
 
-  
 .descripcion {
-    padding: 15px; /* Agrega espacio interno alrededor del texto para mejorar la legibilidad. */
-    text-align: center; /* Centra el texto dentro del contenedor. */
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
 }
 
-
-  /*ajustes para imagenes en horizontal*/
-
-.galeriahorizontal {
-    margin: 5px; /* Espaciado entre galerías horizontales. */
-    border: 1px solid #ccc;
-    float: left; /* Permite la alineación horizontal. */
-    width: 180px; /* Mantiene un ancho fijo. */
-    border-radius: 4px; /* Redondea las esquinas. */
-    height: 190px; 
+/* Encabezados */
+h2 {
+    margin-top: 50px ;
+    font-size: 24px;
+    text-align: left;
 }
-  
-  div.galeriahorizontal:hover {
-    border: 1px solid #777;
-  }
-  
-  .galeriahorizontal img {
-    width: 100%; /*si no se usa todas las imagenes de descolocan y se agrandan*/
-    max-width: fit-content;
-    max-height: fit-content;
-  }
