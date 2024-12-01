@@ -82,6 +82,41 @@
                     width: 80%;
                 }
 
+
+
+                .caminoStarr {
+                    display: flex; /*le daremos una propiedad display */
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                }
+                #starr {
+                    flex: 1;
+                    text-align: right;
+                    margin-top: 20px;
+                    margin-left: 80px;
+                    background-color: rgb(255, 255, 255);
+                }
+
+                #starr img{
+                    max-width: 10px;
+                    max-height: 10px;
+                }
+
+                #starr tr td{
+                    padding-left: 20px;
+                }
+                #starr tr th{
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    color: rgb(255, 255, 255);
+                    background-color: black;
+                    
+                }
+                #starr table{
+                    border: 3px solid black;
+                    border-radius: 8px;
+                }
         </style>
 
 
@@ -111,10 +146,44 @@
         </div>
 
         <div class="contenido-principal">
-            <h2>Curriculum </h2>
+            <h2>Curriculum</h2>
+            <div id="starr" style="margin-bottom: 50px;">
+                <table>
+                <tr>
+                    <th style="padding-left: -10px;">Rareza brawler</th>
+                    <th>Coste en créditos</th>
+                    <th>Coste en gemas</th>
+                </tr>
+                <tr>
+                    <td>Especial</td>
+                    <td>160 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
+                    <td>19 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
+                </tr>
+                <tr>
+                    <td>Super especial</td>
+                    <td>430 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
+                    <td>79 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
+                </tr>
+                <tr>
+                    <td>Épico</td>
+                    <td>925 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
+                    <td>169 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
+                </tr>
+                <tr>
+                    <td>Mitíco</td>
+                    <td>1900<img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
+                    <td>349 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
+                </tr>
+                <tr>
+                    <td>Legendario</td>
+                    <td>3800 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
+                    <td>699 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
+                </tr>
+                </table>
+            </div>
         </div>
     </div>
-    
+        
     </div>
     <div class="footer">
         <div class="column-footer">
