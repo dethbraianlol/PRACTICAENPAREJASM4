@@ -107,15 +107,15 @@ ETIQUETAS CORRESPONDIENTES A LA TABLA DEL CAMINO STARR
 .caminoStarr {
     display: flex; /*le daremos una propiedad display */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /**/
     margin-top: 20px;
 }
 #starr {
     flex: 1;
     text-align: right;
     margin-top: 20px;
-    margin-left: 80px;
     background-color: rgb(255, 255, 255);
+    max-width: 400px;
 }
 
 #starr img{

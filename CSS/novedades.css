@@ -77,41 +77,26 @@ AJUSTA EL TAMAÑO DE LAS IMAGENES DENTRO DEL DIV
 .contenido-principal img{
     width: 100px;
     height: 100px;
-    object-fit: contain;
 }
 
-/*********************************
-TABLA APARTADO DEL GAMEPLAY, IMAGENES DE GADGETS, ESTELARES, HIPER ETC
-*********************************/
-.tabla-gameplay img{
-    width: 80px;
-    height: 80px;
-    object-fit: contain;
-}
 
 .contenido1 {
-    display: grid;
-    gap: 1rem;
-    border: 5px solid #000000;
-    border-radius: 1rem;
-    width: 60em;
-    align-items: center;
-    padding: 1.5rem;
+    border: 4px solid #000000;
+    border-radius: 11px;
+    width: 100%;
+    justify-content : center;
+    padding: 15px;
     background: #ffffff;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .habilidad {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
 }
 
 .imagen {
-    border: 0px solid #000000;
-    overflow: hidden;
     display: flex;
-    flex-shrink: 0;
     align-items: center;
 }
 
@@ -121,20 +106,11 @@ TABLA APARTADO DEL GAMEPLAY, IMAGENES DE GADGETS, ESTELARES, HIPER ETC
 }
 
 .descripcion {
-    flex-direction: column;
     width: 100%;
-    align-items: center;
+    justify-content: center;
 }
 
-.descripcion h3 {
-    font-size: 1.5rem;
-    color: #000000;
-}
 
-.descripcion p {
-    color: #000000;
-    font-size: 1rem;
-}
  
 
 /**********************
@@ -142,22 +118,22 @@ TABLA APARTADO DEL GAMEPLAY, IMAGENES DE GADGETS, ESTELARES, HIPER ETC
 ***********************/
 .formulario {
     max-width: 600px;
-    margin: 50px auto;
+    margin: auto; /*centra el formulario*/
     padding: 20px;
     background: white;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0);
 }
 
 form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*le da forma de columna al formulario*/
     gap: 15px; /*editar para el espacio entre contenidos*/
 }
 
 label {
-    font-weight: bold;
-    margin-bottom: 5px;
+    font-weight: bold; /*marcado en negrita*/
+    margin-bottom: 5px; /*margen inferior*/
 }
 
 input, select, textarea {
@@ -167,11 +143,6 @@ input, select, textarea {
     border-radius: 4px;
 }
 
-fieldset {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-}
 
 button {
     padding: 10px;

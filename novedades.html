@@ -123,7 +123,7 @@
             <div class="contenido1">
                 <div class="habilidad">
                     <div class="imagen">
-                        <img style="width: 100px;" src="imatges/novedades/angel6.webp" alt="Ascensión">                        
+                        <img style="width: 80px;" src="imatges/novedades/angel6.webp" alt="Ascensión">                        
                 </div>
                     <div class="descripcion">
                         <h3>Serafín</h3>
@@ -311,7 +311,7 @@
 
             <h2>Formulario</h2>
             <div class="formulario">
-                <form action="enviado.html" method="POST">
+                <form action="enviado.html">
                     <!-- 
                         NOMBRE
                     -->
@@ -334,7 +334,7 @@
                         OPCIONES
                     -->                    
                     <label for="opciones">Que brawler debería de tener un cambio de balance para la proxima actualización?</label>
-                    <select id="opcione" name="opcions" required>
+                    <select id="opciones" name="opcions" required>
                         <option value="opcion0">Ninguno</option>
                         <option value="opcion1">Poco</option>
                         <option value="opcion2">Squeak</option>
@@ -352,26 +352,22 @@
                     <!-- 
                         LISTA DE CHECKBOX
                     -->
-                    <fieldset>
-                        <legend>Marca los modos de juego que te gusten</legend>
-                        <label><input type="checkbox" name="modo" value="musica" checked>Supervivencia</label>
-                        <label><input type="checkbox" name="modo" value="esport"> Atrapagemas</label>
+                        <caption>Marca los modos de juego que te gusten</caption>
+                        <label><input type="checkbox" name="modo" value="supervivencia" checked>Supervivencia</label>
+                        <label><input type="checkbox" name="modo" value="atarpagemas"> Atrapagemas</label>
                         <label><input type="checkbox" name="modo" value="noqueo"> Noqueo</label>
                         <label><input type="checkbox" name="modo" value="duelo"> Duelo</label>
                         <label><input type="checkbox" name="modo" value="Atraco"> Atraco</label>
                         <label><input type="checkbox" name="modo" value="Balon Brawl"> Balon Brawl</label>
                         <label><input type="checkbox" name="modo" value="Competitivo"> Competitivo</label>
-                    </fieldset>
         
                     <!-- 
                         Lista de radiobuttons 
                     -->
-                    <fieldset>
-                        <legend>Te diviertes jugando Brawl Stars</legend>
+                        <caption>Te diviertes jugando Brawl Stars</c>
                         <label><input type="radio" name="eleccion" value="si" checked> Si</label>
                         <label><input type="radio" name="eleccion" value="no"> No</label>
                         <label><input type="radio" name="eleccion" value="aveces"> A veces</label>
-                    </fieldset>
         
                     <!--
                         TEXTO CON PLACE HOLDER
@@ -382,7 +378,7 @@
                     <!--
                         ENVIAR
                     -->
-                    <button type="submit">EnvÍa</button>
+                    <button type="submit">Envía</button>
                 </form>
             </div>
             

@@ -80,43 +80,39 @@
                 .contenido-principal {
                     height: 80%;
                     width: 80%;
+                    background-color: #ffffff;
+                    border: 4px solid #000000;
+                    box-shadow: 10px 10px 10px #5b0707;
+                    margin-bottom: 80px;
                 }
 
 
-
-                .caminoStarr {
-                    display: flex; /*le daremos una propiedad display */
-                    align-items: center;
-                    justify-content: space-between;
-                    margin-top: 20px;
-                }
-                #starr {
-                    flex: 1;
-                    text-align: right;
-                    margin-top: 20px;
-                    margin-left: 80px;
+                #CV {
                     background-color: rgb(255, 255, 255);
+                    max-width: 100%;
+                    text-align: center;
                 }
 
-                #starr img{
-                    max-width: 10px;
-                    max-height: 10px;
-                }
-
-                #starr tr td{
-                    padding-left: 20px;
-                }
-                #starr tr th{
-                    padding-left: 20px;
-                    padding-right: 20px;
+                #CV tr th{
                     color: rgb(255, 255, 255);
-                    background-color: black;
-                    
+                    background-color: #0f0000;
+                    padding: 10px;
                 }
-                #starr table{
-                    border: 3px solid black;
-                    border-radius: 8px;
+                #CV table{
+                    border: 4px solid rgb(255, 252, 252);
+                    width: 100%;
+                    padding: 10px;
                 }
+
+                #CV th {
+                    border: #ffffff;
+                }
+                
+                caption {
+                    margin-top: 10px;
+                    padding: 5px;
+                }
+
         </style>
 
 
@@ -146,40 +142,101 @@
         </div>
 
         <div class="contenido-principal">
-            <h2>Curriculum</h2>
-            <div id="starr" style="margin-bottom: 50px;">
+            
+            <div id="CV">
                 <table>
-                <tr>
-                    <th style="padding-left: -10px;">Rareza brawler</th>
-                    <th>Coste en créditos</th>
-                    <th>Coste en gemas</th>
-                </tr>
-                <tr>
-                    <td>Especial</td>
-                    <td>160 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
-                    <td>19 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
-                </tr>
-                <tr>
-                    <td>Super especial</td>
-                    <td>430 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
-                    <td>79 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
-                </tr>
-                <tr>
-                    <td>Épico</td>
-                    <td>925 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
-                    <td>169 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
-                </tr>
-                <tr>
-                    <td>Mitíco</td>
-                    <td>1900<img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
-                    <td>349 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
-                </tr>
-                <tr>
-                    <td>Legendario</td>
-                    <td>3800 <img src="imatges/jugabilidad/creditounico.webp" alt="creditos"></td>
-                    <td>699 <img src="imatges/jugabilidad/gemaunica.webp" alt="gema"></td>
-                </tr>
+                    <caption>CURRÍCULUM</caption>
+                    <!-- Cabecera de la tabla -->
+                    <tr>
+                        <th colspan="5">Braian Javier Arancibia Poveda</th>
+                    </tr>
+                    <tr>
+                        <th colspan="5">Estudios</th>
+                    </tr>
+                    <!-- Filas de estudios -->
+                    <tr>
+                        <th>Año</th>
+                        <th>Estudio</th>
+                        <th style="padding-right: 110px;">Institución</th>
+                        <th style="padding-right: 20px;">Ciudad</th>
+                        <th style="padding-right: 30px;">País</th>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>Educación secundaria obligatoria</td>
+                        <td style="padding-right: 110px;">IES Valldemossa</td>
+                        <td style="padding-right: 20px;">Barcelona</td>
+                        <td style="padding-right: 10px;">España</td>
+                    </tr>
+                    <tr>
+                        <td>2018</td>
+                        <td>Bachillerato Artístico</td>
+                        <td style="padding-right: 110px;">IES Valldemossa</td>
+                        <td style="padding-right: 20px;">Barcelona</td>
+                        <td style="padding-right: 10px;">España</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>Ciclo Formativo Grado Medio en electromecanica</td>
+                        <td style="padding-right: 110px;">INS La Guineueta</td>
+                        <td style="padding-right: 20px;">Barcelona</td>
+                        <td style="padding-right: 10px;">España</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>Ciclo Formativo Grado Superior Automoción</td>
+                        <td style="padding-right: 110px;">INS La Guineueta</td>
+                        <td style="padding-right: 20px;">Barcelona</td>
+                        <td style="padding-right: 10px;">España</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>Desarrollo de Aplicaciones Web</td>
+                        <td style="padding-right: 110px;">ITIC Barcelona</td>
+                        <td style="padding-right: 20px;">Barcelona</td>
+                        <td style="padding-right: 10px;">España</td>
+                    </tr>
+
+
+                    <tr>
+                        <th colspan="5">Proyectos</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Nombre del Proyecto</th>
+                        <th style="padding-right: 280px;" colspan="5">Detalles</th>
+                    </tr>
+                    <tr>
+                        <th>Descripción</th>
+                        <th colspan="5">Año</th>
+                    </tr>
+                    <!-- Filas de proyectos -->
+                    <tr>
+                        <td>Inversiones en inmuebles en la Patagonia</td>
+                        <td>Gestión de propiedades en la región</td>
+                        <td colspan="4">2020</td>
+                    </tr>
+                    <tr>
+                        <td>Página web de recopilación de datos de videojuegos</td>
+                        <td>Creación y desarrollo de una página web de datos de videojuegos</td>
+                        <td colspan="4">2023</td>
+                    </tr>
+                    <tr>
+                        <td>Galería de arte contemporáneo</td>
+                        <td>Desarrollo de un portal para artistas emergentes</td>
+                        <td colspan="4">2023</td>
+                    </tr>
+                    <tr>
+                        <td>Sistema de control para talleres mecánicos</td>
+                        <td>Aplicación para gestionar inventarios y reparaciones</td>
+                        <td colspan="4">2023</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de un aplicación de música</td>
+                        <td>Investigación y desarrollo de una aplicación web para la fomentación de nuevos músicos talentosos</td>
+                        <td colspan="4">2023</td>
+                    </tr>
                 </table>
+        
             </div>
         </div>
     </div>
